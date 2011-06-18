@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E63D26A713AC10ED00138818 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D26A613AC10ED00138818 /* UIKit.framework */; };
+		E63D26A913AC10ED00138818 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D26A813AC10ED00138818 /* Foundation.framework */; };
+		E63D26AB13AC10ED00138818 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D26AA13AC10ED00138818 /* CoreGraphics.framework */; };
+		E63D26B113AC10ED00138818 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E63D26AF13AC10ED00138818 /* InfoPlist.strings */; };
+		E63D26B413AC10ED00138818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D26B313AC10ED00138818 /* main.m */; };
+		E63D26B713AC10ED00138818 /* Exercise7_SwitchyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D26B613AC10ED00138818 /* Exercise7_SwitchyAppDelegate.m */; };
+		E63D26BA13AC10ED00138818 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D26B813AC10ED00138818 /* MainWindow.xib */; };
+		E63D26C613AC116C00138818 /* BadNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D26C113AC116C00138818 /* BadNewsViewController.m */; };
+		E63D26C713AC116C00138818 /* GoodNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D26C313AC116C00138818 /* GoodNewsViewController.m */; };
+		E63D26C813AC116C00138818 /* SwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D26C513AC116C00138818 /* SwitchViewController.m */; };
+		E63D26CF13AC137200138818 /* GoodNewsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D26CE13AC137200138818 /* GoodNewsView.xib */; };
+		E63D26D113AC139D00138818 /* SwitchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D26D013AC139D00138818 /* SwitchViewController.xib */; };
+		E63D26D313AC13B500138818 /* BadNewsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D26D213AC13B500138818 /* BadNewsView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E63D26A213AC10ED00138818 /* Exercise7-Switchy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exercise7-Switchy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63D26A613AC10ED00138818 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E63D26A813AC10ED00138818 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E63D26AA13AC10ED00138818 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E63D26AE13AC10ED00138818 /* Exercise7-Switchy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Exercise7-Switchy-Info.plist"; sourceTree = "<group>"; };
+		E63D26B013AC10ED00138818 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E63D26B213AC10ED00138818 /* Exercise7-Switchy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercise7-Switchy-Prefix.pch"; sourceTree = "<group>"; };
+		E63D26B313AC10ED00138818 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E63D26B513AC10ED00138818 /* Exercise7_SwitchyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exercise7_SwitchyAppDelegate.h; sourceTree = "<group>"; };
+		E63D26B613AC10ED00138818 /* Exercise7_SwitchyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exercise7_SwitchyAppDelegate.m; sourceTree = "<group>"; };
+		E63D26B913AC10ED00138818 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E63D26C013AC116C00138818 /* BadNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadNewsViewController.h; sourceTree = "<group>"; };
+		E63D26C113AC116C00138818 /* BadNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadNewsViewController.m; sourceTree = "<group>"; };
+		E63D26C213AC116C00138818 /* GoodNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodNewsViewController.h; sourceTree = "<group>"; };
+		E63D26C313AC116C00138818 /* GoodNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodNewsViewController.m; sourceTree = "<group>"; };
+		E63D26C413AC116C00138818 /* SwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchViewController.h; sourceTree = "<group>"; };
+		E63D26C513AC116C00138818 /* SwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchViewController.m; sourceTree = "<group>"; };
+		E63D26CE13AC137200138818 /* GoodNewsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodNewsView.xib; sourceTree = "<group>"; };
+		E63D26D013AC139D00138818 /* SwitchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchViewController.xib; sourceTree = "<group>"; };
+		E63D26D213AC13B500138818 /* BadNewsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BadNewsView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E63D269F13AC10ED00138818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63D26A713AC10ED00138818 /* UIKit.framework in Frameworks */,
+				E63D26A913AC10ED00138818 /* Foundation.framework in Frameworks */,
+				E63D26AB13AC10ED00138818 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E63D269713AC10ED00138818 = {
+			isa = PBXGroup;
+			children = (
+				E63D26AC13AC10ED00138818 /* Exercise7-Switchy */,
+				E63D26A513AC10ED00138818 /* Frameworks */,
+				E63D26A313AC10ED00138818 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E63D26A313AC10ED00138818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E63D26A213AC10ED00138818 /* Exercise7-Switchy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E63D26A513AC10ED00138818 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E63D26A613AC10ED00138818 /* UIKit.framework */,
+				E63D26A813AC10ED00138818 /* Foundation.framework */,
+				E63D26AA13AC10ED00138818 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E63D26AC13AC10ED00138818 /* Exercise7-Switchy */ = {
+			isa = PBXGroup;
+			children = (
+				E63D26CB13AC131900138818 /* Classes */,
+				E63D26CC13AC132800138818 /* Resources */,
+				E63D26AD13AC10ED00138818 /* Supporting Files */,
+			);
+			path = "Exercise7-Switchy";
+			sourceTree = "<group>";
+		};
+		E63D26AD13AC10ED00138818 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E63D26AE13AC10ED00138818 /* Exercise7-Switchy-Info.plist */,
+				E63D26AF13AC10ED00138818 /* InfoPlist.strings */,
+				E63D26B213AC10ED00138818 /* Exercise7-Switchy-Prefix.pch */,
+				E63D26B313AC10ED00138818 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E63D26CB13AC131900138818 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E63D26C013AC116C00138818 /* BadNewsViewController.h */,
+				E63D26C113AC116C00138818 /* BadNewsViewController.m */,
+				E63D26C213AC116C00138818 /* GoodNewsViewController.h */,
+				E63D26C313AC116C00138818 /* GoodNewsViewController.m */,
+				E63D26C413AC116C00138818 /* SwitchViewController.h */,
+				E63D26C513AC116C00138818 /* SwitchViewController.m */,
+				E63D26B513AC10ED00138818 /* Exercise7_SwitchyAppDelegate.h */,
+				E63D26B613AC10ED00138818 /* Exercise7_SwitchyAppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E63D26CC13AC132800138818 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E63D26CD13AC133600138818 /* XIBs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E63D26CD13AC133600138818 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				E63D26B813AC10ED00138818 /* MainWindow.xib */,
+				E63D26CE13AC137200138818 /* GoodNewsView.xib */,
+				E63D26D013AC139D00138818 /* SwitchViewController.xib */,
+				E63D26D213AC13B500138818 /* BadNewsView.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E63D26A113AC10ED00138818 /* Exercise7-Switchy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E63D26BD13AC10ED00138818 /* Build configuration list for PBXNativeTarget "Exercise7-Switchy" */;
+			buildPhases = (
+				E63D269E13AC10ED00138818 /* Sources */,
+				E63D269F13AC10ED00138818 /* Frameworks */,
+				E63D26A013AC10ED00138818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Exercise7-Switchy";
+			productName = "Exercise7-Switchy";
+			productReference = E63D26A213AC10ED00138818 /* Exercise7-Switchy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E63D269913AC10ED00138818 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Progressive Insurance";
+			};
+			buildConfigurationList = E63D269C13AC10ED00138818 /* Build configuration list for PBXProject "Exercise7-Switchy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E63D269713AC10ED00138818;
+			productRefGroup = E63D26A313AC10ED00138818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E63D26A113AC10ED00138818 /* Exercise7-Switchy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E63D26A013AC10ED00138818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63D26B113AC10ED00138818 /* InfoPlist.strings in Resources */,
+				E63D26BA13AC10ED00138818 /* MainWindow.xib in Resources */,
+				E63D26CF13AC137200138818 /* GoodNewsView.xib in Resources */,
+				E63D26D113AC139D00138818 /* SwitchViewController.xib in Resources */,
+				E63D26D313AC13B500138818 /* BadNewsView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E63D269E13AC10ED00138818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63D26B413AC10ED00138818 /* main.m in Sources */,
+				E63D26B713AC10ED00138818 /* Exercise7_SwitchyAppDelegate.m in Sources */,
+				E63D26C613AC116C00138818 /* BadNewsViewController.m in Sources */,
+				E63D26C713AC116C00138818 /* GoodNewsViewController.m in Sources */,
+				E63D26C813AC116C00138818 /* SwitchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E63D26AF13AC10ED00138818 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63D26B013AC10ED00138818 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E63D26B813AC10ED00138818 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63D26B913AC10ED00138818 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E63D26BB13AC10ED00138818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E63D26BC13AC10ED00138818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E63D26BE13AC10ED00138818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exercise7-Switchy/Exercise7-Switchy-Prefix.pch";
+				INFOPLIST_FILE = "Exercise7-Switchy/Exercise7-Switchy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E63D26BF13AC10ED00138818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exercise7-Switchy/Exercise7-Switchy-Prefix.pch";
+				INFOPLIST_FILE = "Exercise7-Switchy/Exercise7-Switchy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E63D269C13AC10ED00138818 /* Build configuration list for PBXProject "Exercise7-Switchy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63D26BB13AC10ED00138818 /* Debug */,
+				E63D26BC13AC10ED00138818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E63D26BD13AC10ED00138818 /* Build configuration list for PBXNativeTarget "Exercise7-Switchy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63D26BE13AC10ED00138818 /* Debug */,
+				E63D26BF13AC10ED00138818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E63D269913AC10ED00138818 /* Project object */;
+}

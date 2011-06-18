@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E63D267613ABE2DF00138818 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D267513ABE2DF00138818 /* UIKit.framework */; };
+		E63D267813ABE2DF00138818 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D267713ABE2DF00138818 /* Foundation.framework */; };
+		E63D267A13ABE2DF00138818 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D267913ABE2DF00138818 /* CoreGraphics.framework */; };
+		E63D268013ABE2DF00138818 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E63D267E13ABE2DF00138818 /* InfoPlist.strings */; };
+		E63D268313ABE2DF00138818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D268213ABE2DF00138818 /* main.m */; };
+		E63D268613ABE2DF00138818 /* Manage_My_ViewsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D268513ABE2DF00138818 /* Manage_My_ViewsAppDelegate.m */; };
+		E63D268913ABE2E000138818 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D268713ABE2DF00138818 /* MainWindow.xib */; };
+		E63D268C13ABE2E000138818 /* Manage_My_ViewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D268B13ABE2E000138818 /* Manage_My_ViewsViewController.m */; };
+		E63D268F13ABE2E000138818 /* Manage_My_ViewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D268D13ABE2E000138818 /* Manage_My_ViewsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E63D267113ABE2DF00138818 /* Manage My Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Manage My Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63D267513ABE2DF00138818 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E63D267713ABE2DF00138818 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E63D267913ABE2DF00138818 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E63D267D13ABE2DF00138818 /* Manage My Views-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Manage My Views-Info.plist"; sourceTree = "<group>"; };
+		E63D267F13ABE2DF00138818 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E63D268113ABE2DF00138818 /* Manage My Views-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Manage My Views-Prefix.pch"; sourceTree = "<group>"; };
+		E63D268213ABE2DF00138818 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E63D268413ABE2DF00138818 /* Manage_My_ViewsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manage_My_ViewsAppDelegate.h; sourceTree = "<group>"; };
+		E63D268513ABE2DF00138818 /* Manage_My_ViewsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manage_My_ViewsAppDelegate.m; sourceTree = "<group>"; };
+		E63D268813ABE2E000138818 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E63D268A13ABE2E000138818 /* Manage_My_ViewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manage_My_ViewsViewController.h; sourceTree = "<group>"; };
+		E63D268B13ABE2E000138818 /* Manage_My_ViewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manage_My_ViewsViewController.m; sourceTree = "<group>"; };
+		E63D268E13ABE2E000138818 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Manage_My_ViewsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E63D266E13ABE2DF00138818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63D267613ABE2DF00138818 /* UIKit.framework in Frameworks */,
+				E63D267813ABE2DF00138818 /* Foundation.framework in Frameworks */,
+				E63D267A13ABE2DF00138818 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E63D266613ABE2DF00138818 = {
+			isa = PBXGroup;
+			children = (
+				E63D267B13ABE2DF00138818 /* Manage My Views */,
+				E63D267413ABE2DF00138818 /* Frameworks */,
+				E63D267213ABE2DF00138818 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E63D267213ABE2DF00138818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E63D267113ABE2DF00138818 /* Manage My Views.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E63D267413ABE2DF00138818 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E63D267513ABE2DF00138818 /* UIKit.framework */,
+				E63D267713ABE2DF00138818 /* Foundation.framework */,
+				E63D267913ABE2DF00138818 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E63D267B13ABE2DF00138818 /* Manage My Views */ = {
+			isa = PBXGroup;
+			children = (
+				E63D269513ABE8F100138818 /* Classes */,
+				E63D267C13ABE2DF00138818 /* Supporting Files */,
+			);
+			path = "Manage My Views";
+			sourceTree = "<group>";
+		};
+		E63D267C13ABE2DF00138818 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E63D269613ABE90500138818 /* XIBs */,
+				E63D267D13ABE2DF00138818 /* Manage My Views-Info.plist */,
+				E63D267E13ABE2DF00138818 /* InfoPlist.strings */,
+				E63D268113ABE2DF00138818 /* Manage My Views-Prefix.pch */,
+				E63D268213ABE2DF00138818 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E63D269513ABE8F100138818 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E63D268413ABE2DF00138818 /* Manage_My_ViewsAppDelegate.h */,
+				E63D268513ABE2DF00138818 /* Manage_My_ViewsAppDelegate.m */,
+				E63D268A13ABE2E000138818 /* Manage_My_ViewsViewController.h */,
+				E63D268B13ABE2E000138818 /* Manage_My_ViewsViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E63D269613ABE90500138818 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				E63D268713ABE2DF00138818 /* MainWindow.xib */,
+				E63D268D13ABE2E000138818 /* Manage_My_ViewsViewController.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E63D267013ABE2DF00138818 /* Manage My Views */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E63D269213ABE2E000138818 /* Build configuration list for PBXNativeTarget "Manage My Views" */;
+			buildPhases = (
+				E63D266D13ABE2DF00138818 /* Sources */,
+				E63D266E13ABE2DF00138818 /* Frameworks */,
+				E63D266F13ABE2DF00138818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Manage My Views";
+			productName = "Manage My Views";
+			productReference = E63D267113ABE2DF00138818 /* Manage My Views.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E63D266813ABE2DF00138818 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Progressive Insurance";
+			};
+			buildConfigurationList = E63D266B13ABE2DF00138818 /* Build configuration list for PBXProject "Manage My Views" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E63D266613ABE2DF00138818;
+			productRefGroup = E63D267213ABE2DF00138818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E63D267013ABE2DF00138818 /* Manage My Views */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E63D266F13ABE2DF00138818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63D268013ABE2DF00138818 /* InfoPlist.strings in Resources */,
+				E63D268913ABE2E000138818 /* MainWindow.xib in Resources */,
+				E63D268F13ABE2E000138818 /* Manage_My_ViewsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E63D266D13ABE2DF00138818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63D268313ABE2DF00138818 /* main.m in Sources */,
+				E63D268613ABE2DF00138818 /* Manage_My_ViewsAppDelegate.m in Sources */,
+				E63D268C13ABE2E000138818 /* Manage_My_ViewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E63D267E13ABE2DF00138818 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63D267F13ABE2DF00138818 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E63D268713ABE2DF00138818 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63D268813ABE2E000138818 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E63D268D13ABE2E000138818 /* Manage_My_ViewsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63D268E13ABE2E000138818 /* en */,
+			);
+			name = Manage_My_ViewsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E63D269013ABE2E000138818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E63D269113ABE2E000138818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E63D269313ABE2E000138818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Manage My Views/Manage My Views-Prefix.pch";
+				INFOPLIST_FILE = "Manage My Views/Manage My Views-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E63D269413ABE2E000138818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Manage My Views/Manage My Views-Prefix.pch";
+				INFOPLIST_FILE = "Manage My Views/Manage My Views-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E63D266B13ABE2DF00138818 /* Build configuration list for PBXProject "Manage My Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63D269013ABE2E000138818 /* Debug */,
+				E63D269113ABE2E000138818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E63D269213ABE2E000138818 /* Build configuration list for PBXNativeTarget "Manage My Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63D269313ABE2E000138818 /* Debug */,
+				E63D269413ABE2E000138818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E63D266813ABE2DF00138818 /* Project object */;
+}

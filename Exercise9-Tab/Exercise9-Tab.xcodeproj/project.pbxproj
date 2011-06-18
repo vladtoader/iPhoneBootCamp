@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E63D26E413AD123700138818 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D26E313AD123700138818 /* UIKit.framework */; };
+		E63D26E613AD123700138818 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D26E513AD123700138818 /* Foundation.framework */; };
+		E63D26E813AD123700138818 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D26E713AD123700138818 /* CoreGraphics.framework */; };
+		E63D26EE13AD123700138818 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E63D26EC13AD123700138818 /* InfoPlist.strings */; };
+		E63D26F113AD123700138818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D26F013AD123700138818 /* main.m */; };
+		E63D26F413AD123700138818 /* Exercise9_TabAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D26F313AD123700138818 /* Exercise9_TabAppDelegate.m */; };
+		E63D26F713AD123700138818 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D26F513AD123700138818 /* MainWindow.xib */; };
+		E63D270213AD12BA00138818 /* SoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D270013AD12BA00138818 /* SoundViewController.m */; };
+		E63D270313AD12BA00138818 /* SoundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D270113AD12BA00138818 /* SoundViewController.xib */; };
+		E63D270713AD12E400138818 /* CoreLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D270513AD12E400138818 /* CoreLocationViewController.m */; };
+		E63D270813AD12E400138818 /* CoreLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D270613AD12E400138818 /* CoreLocationViewController.xib */; };
+		E63D270C13AD130000138818 /* UserDefaultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D270A13AD12FF00138818 /* UserDefaultsViewController.m */; };
+		E63D270D13AD130000138818 /* UserDefaultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D270B13AD12FF00138818 /* UserDefaultsViewController.xib */; };
+		E63D271913AD39EF00138818 /* shaker.wav in Resources */ = {isa = PBXBuildFile; fileRef = E63D271813AD39EF00138818 /* shaker.wav */; };
+		E63D271B13AD3A0800138818 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D271A13AD3A0800138818 /* AudioToolbox.framework */; };
+		E63D271D13AD3ADA00138818 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D271C13AD3ADA00138818 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E63D26DF13AD123700138818 /* Exercise9-Tab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exercise9-Tab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63D26E313AD123700138818 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E63D26E513AD123700138818 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E63D26E713AD123700138818 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E63D26EB13AD123700138818 /* Exercise9-Tab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Exercise9-Tab-Info.plist"; sourceTree = "<group>"; };
+		E63D26ED13AD123700138818 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E63D26EF13AD123700138818 /* Exercise9-Tab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercise9-Tab-Prefix.pch"; sourceTree = "<group>"; };
+		E63D26F013AD123700138818 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E63D26F213AD123700138818 /* Exercise9_TabAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exercise9_TabAppDelegate.h; sourceTree = "<group>"; };
+		E63D26F313AD123700138818 /* Exercise9_TabAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exercise9_TabAppDelegate.m; sourceTree = "<group>"; };
+		E63D26F613AD123700138818 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E63D26FF13AD12BA00138818 /* SoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundViewController.h; sourceTree = "<group>"; };
+		E63D270013AD12BA00138818 /* SoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundViewController.m; sourceTree = "<group>"; };
+		E63D270113AD12BA00138818 /* SoundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoundViewController.xib; sourceTree = "<group>"; };
+		E63D270413AD12E400138818 /* CoreLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLocationViewController.h; sourceTree = "<group>"; };
+		E63D270513AD12E400138818 /* CoreLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLocationViewController.m; sourceTree = "<group>"; };
+		E63D270613AD12E400138818 /* CoreLocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreLocationViewController.xib; sourceTree = "<group>"; };
+		E63D270913AD12FF00138818 /* UserDefaultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsViewController.h; sourceTree = "<group>"; };
+		E63D270A13AD12FF00138818 /* UserDefaultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsViewController.m; sourceTree = "<group>"; };
+		E63D270B13AD12FF00138818 /* UserDefaultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserDefaultsViewController.xib; sourceTree = "<group>"; };
+		E63D271813AD39EF00138818 /* shaker.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shaker.wav; sourceTree = "<group>"; };
+		E63D271A13AD3A0800138818 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E63D271C13AD3ADA00138818 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E63D26DC13AD123700138818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63D271D13AD3ADA00138818 /* CoreLocation.framework in Frameworks */,
+				E63D271B13AD3A0800138818 /* AudioToolbox.framework in Frameworks */,
+				E63D26E413AD123700138818 /* UIKit.framework in Frameworks */,
+				E63D26E613AD123700138818 /* Foundation.framework in Frameworks */,
+				E63D26E813AD123700138818 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E63D26D413AD123700138818 = {
+			isa = PBXGroup;
+			children = (
+				E63D26E913AD123700138818 /* Exercise9-Tab */,
+				E63D26E213AD123700138818 /* Frameworks */,
+				E63D26E013AD123700138818 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E63D26E013AD123700138818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E63D26DF13AD123700138818 /* Exercise9-Tab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E63D26E213AD123700138818 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E63D271C13AD3ADA00138818 /* CoreLocation.framework */,
+				E63D271A13AD3A0800138818 /* AudioToolbox.framework */,
+				E63D26E313AD123700138818 /* UIKit.framework */,
+				E63D26E513AD123700138818 /* Foundation.framework */,
+				E63D26E713AD123700138818 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E63D26E913AD123700138818 /* Exercise9-Tab */ = {
+			isa = PBXGroup;
+			children = (
+				E63D26FD13AD124100138818 /* Classes */,
+				E63D26FE13AD125300138818 /* Resources */,
+				E63D26EA13AD123700138818 /* Supporting Files */,
+			);
+			path = "Exercise9-Tab";
+			sourceTree = "<group>";
+		};
+		E63D26EA13AD123700138818 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E63D26EB13AD123700138818 /* Exercise9-Tab-Info.plist */,
+				E63D26EC13AD123700138818 /* InfoPlist.strings */,
+				E63D26EF13AD123700138818 /* Exercise9-Tab-Prefix.pch */,
+				E63D26F013AD123700138818 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E63D26FD13AD124100138818 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E63D26F213AD123700138818 /* Exercise9_TabAppDelegate.h */,
+				E63D26F313AD123700138818 /* Exercise9_TabAppDelegate.m */,
+				E63D26FF13AD12BA00138818 /* SoundViewController.h */,
+				E63D270013AD12BA00138818 /* SoundViewController.m */,
+				E63D270413AD12E400138818 /* CoreLocationViewController.h */,
+				E63D270513AD12E400138818 /* CoreLocationViewController.m */,
+				E63D270913AD12FF00138818 /* UserDefaultsViewController.h */,
+				E63D270A13AD12FF00138818 /* UserDefaultsViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E63D26FE13AD125300138818 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E63D271813AD39EF00138818 /* shaker.wav */,
+				E63D270B13AD12FF00138818 /* UserDefaultsViewController.xib */,
+				E63D270613AD12E400138818 /* CoreLocationViewController.xib */,
+				E63D270113AD12BA00138818 /* SoundViewController.xib */,
+				E63D26F513AD123700138818 /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E63D26DE13AD123700138818 /* Exercise9-Tab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E63D26FA13AD123700138818 /* Build configuration list for PBXNativeTarget "Exercise9-Tab" */;
+			buildPhases = (
+				E63D26DB13AD123700138818 /* Sources */,
+				E63D26DC13AD123700138818 /* Frameworks */,
+				E63D26DD13AD123700138818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Exercise9-Tab";
+			productName = "Exercise9-Tab";
+			productReference = E63D26DF13AD123700138818 /* Exercise9-Tab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E63D26D613AD123700138818 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Progressive Insurance";
+			};
+			buildConfigurationList = E63D26D913AD123700138818 /* Build configuration list for PBXProject "Exercise9-Tab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E63D26D413AD123700138818;
+			productRefGroup = E63D26E013AD123700138818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E63D26DE13AD123700138818 /* Exercise9-Tab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E63D26DD13AD123700138818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63D26EE13AD123700138818 /* InfoPlist.strings in Resources */,
+				E63D26F713AD123700138818 /* MainWindow.xib in Resources */,
+				E63D270313AD12BA00138818 /* SoundViewController.xib in Resources */,
+				E63D270813AD12E400138818 /* CoreLocationViewController.xib in Resources */,
+				E63D270D13AD130000138818 /* UserDefaultsViewController.xib in Resources */,
+				E63D271913AD39EF00138818 /* shaker.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E63D26DB13AD123700138818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63D26F113AD123700138818 /* main.m in Sources */,
+				E63D26F413AD123700138818 /* Exercise9_TabAppDelegate.m in Sources */,
+				E63D270213AD12BA00138818 /* SoundViewController.m in Sources */,
+				E63D270713AD12E400138818 /* CoreLocationViewController.m in Sources */,
+				E63D270C13AD130000138818 /* UserDefaultsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E63D26EC13AD123700138818 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63D26ED13AD123700138818 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E63D26F513AD123700138818 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63D26F613AD123700138818 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E63D26F813AD123700138818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E63D26F913AD123700138818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E63D26FB13AD123700138818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exercise9-Tab/Exercise9-Tab-Prefix.pch";
+				INFOPLIST_FILE = "Exercise9-Tab/Exercise9-Tab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E63D26FC13AD123700138818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exercise9-Tab/Exercise9-Tab-Prefix.pch";
+				INFOPLIST_FILE = "Exercise9-Tab/Exercise9-Tab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E63D26D913AD123700138818 /* Build configuration list for PBXProject "Exercise9-Tab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63D26F813AD123700138818 /* Debug */,
+				E63D26F913AD123700138818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E63D26FA13AD123700138818 /* Build configuration list for PBXNativeTarget "Exercise9-Tab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63D26FB13AD123700138818 /* Debug */,
+				E63D26FC13AD123700138818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E63D26D613AD123700138818 /* Project object */;
+}
