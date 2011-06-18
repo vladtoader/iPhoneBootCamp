@@ -1,0 +1,201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6C5B3B513ABB57200091F44 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E6C5B3B413ABB57200091F44 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E6C5B3AE13ABB57200091F44 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E6C5B3B013ABB57200091F44 /* PointyPointers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PointyPointers; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C5B3B413ABB57200091F44 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		E6C5B3B613ABB57200091F44 /* PointyPointers.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PointyPointers.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6C5B3AD13ABB57200091F44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6C5B3A513ABB57200091F44 = {
+			isa = PBXGroup;
+			children = (
+				E6C5B3B313ABB57200091F44 /* PointyPointers */,
+				E6C5B3B113ABB57200091F44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6C5B3B113ABB57200091F44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6C5B3B013ABB57200091F44 /* PointyPointers */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6C5B3B313ABB57200091F44 /* PointyPointers */ = {
+			isa = PBXGroup;
+			children = (
+				E6C5B3B413ABB57200091F44 /* main.c */,
+				E6C5B3B613ABB57200091F44 /* PointyPointers.1 */,
+			);
+			path = PointyPointers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6C5B3AF13ABB57200091F44 /* PointyPointers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6C5B3B913ABB57200091F44 /* Build configuration list for PBXNativeTarget "PointyPointers" */;
+			buildPhases = (
+				E6C5B3AC13ABB57200091F44 /* Sources */,
+				E6C5B3AD13ABB57200091F44 /* Frameworks */,
+				E6C5B3AE13ABB57200091F44 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PointyPointers;
+			productName = PointyPointers;
+			productReference = E6C5B3B013ABB57200091F44 /* PointyPointers */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6C5B3A713ABB57200091F44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Progressive Insurance";
+			};
+			buildConfigurationList = E6C5B3AA13ABB57200091F44 /* Build configuration list for PBXProject "PointyPointers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6C5B3A513ABB57200091F44;
+			productRefGroup = E6C5B3B113ABB57200091F44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6C5B3AF13ABB57200091F44 /* PointyPointers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6C5B3AC13ABB57200091F44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6C5B3B513ABB57200091F44 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E6C5B3B713ABB57200091F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E6C5B3B813ABB57200091F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E6C5B3BA13ABB57200091F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E6C5B3BB13ABB57200091F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6C5B3AA13ABB57200091F44 /* Build configuration list for PBXProject "PointyPointers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6C5B3B713ABB57200091F44 /* Debug */,
+				E6C5B3B813ABB57200091F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6C5B3B913ABB57200091F44 /* Build configuration list for PBXNativeTarget "PointyPointers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6C5B3BA13ABB57200091F44 /* Debug */,
+				E6C5B3BB13ABB57200091F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6C5B3A713ABB57200091F44 /* Project object */;
+}
