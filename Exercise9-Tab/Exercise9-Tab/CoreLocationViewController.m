@@ -14,6 +14,7 @@
 @synthesize mLat, mLong, mAlt, mVertAcc, mHorzAcc;
 @synthesize mStartDistance;
 @synthesize mLocationManager;
+@synthesize map;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -33,6 +34,7 @@
     [mAlt release];
     [mLocationManager release];
     [mStartDistance release];
+    [map release];
     [super dealloc];
 }
 
@@ -90,7 +92,17 @@
     // the second line uses properties (Obj C 2.0) 
     if ([self mStartDistance] == nil) [self setMStartDistance:newLocation];
     if (self.mStartDistance == nil) self.mStartDistance = newLocation;
-        
+    
+    MKCoordinateRegion mapR = MKCoordinateRegionMakeWithDistance(newLocation.coordinate, 500, 500);
+    [map setRegion:mapR animated:YES];
+    
+    MKPointAnnotation *annot = [[MKPointAnnotation alloc] init];
+    annot.coordinate = newLocation.coordinate;
+    annot.title = @"I was here";
+    annot.subtitle = @"06/18/2011";
+    [map addAnnotation:annot];
+    [annot release];
+    
     CLLocationDistance dist = [newLocation distanceFromLocation:mStartDistance];
     NSLog(@"%g", dist);
 }

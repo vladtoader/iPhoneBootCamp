@@ -1,17 +1,17 @@
 //
-//  UserDefaultsViewController.m
+//  AccelerometerViewController.m
 //  Exercise9-Tab
 //
 //  Created by Vlad Toader on 6/18/11.
 //  Copyright 2011 Progressive Insurance. All rights reserved.
 //
 
-#import "UserDefaultsViewController.h"
+#import "AccelerometerViewController.h"
 
 
-@implementation UserDefaultsViewController
+@implementation AccelerometerViewController
 
-@synthesize enteredText, def;
+@synthesize xLabel, yLabel, zLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -24,7 +24,6 @@
 
 - (void)dealloc
 {
-    [enteredText release];
     [super dealloc];
 }
 
@@ -43,12 +42,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    def = [NSUserDefaults standardUserDefaults];
-    
-    NSString *tempValue = [def stringForKey:@"key1"];
-    if (tempValue != nil) {
-        enteredText.text = tempValue;
-    }
+    [[UIAccelerometer sharedAccelerometer] setUpdateInterval:.1];
+    [[UIAccelerometer sharedAccelerometer] setDelegate:self];
 }
 
 - (void)viewDidUnload
@@ -64,23 +59,12 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-#pragma mark - Action methods
+#pragma mark - UIAccelerometerDelegate methods
 
-- (IBAction)saveData:(id)sender {
-    
-    def = [NSUserDefaults standardUserDefaults];
-    
-//    NSLog(@"%@", [def stringForKey:@"key1"]);
-    
-    [def setObject:[enteredText text] forKey:@"key1"];
-    [def synchronize];
-}
-
-#pragma mark - UITextFieldDelegate methods
-
--(BOOL) textFieldShouldReturn:(UITextField *)textField {
-    [textField resignFirstResponder];
-    return NO;
+- (void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration {
+    xLabel.text = [NSString stringWithFormat:@"%f", acceleration.x];
+    yLabel.text = [NSString stringWithFormat:@"%f", acceleration.y];
+    zLabel.text = [NSString stringWithFormat:@"%f", acceleration.z];
 }
 
 @end

@@ -23,6 +23,9 @@
 		E63D271913AD39EF00138818 /* shaker.wav in Resources */ = {isa = PBXBuildFile; fileRef = E63D271813AD39EF00138818 /* shaker.wav */; };
 		E63D271B13AD3A0800138818 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D271A13AD3A0800138818 /* AudioToolbox.framework */; };
 		E63D271D13AD3ADA00138818 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D271C13AD3ADA00138818 /* CoreLocation.framework */; };
+		E63D271F13AD423900138818 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D271E13AD423900138818 /* MapKit.framework */; };
+		E63D272313AD532700138818 /* AccelerometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D272113AD532600138818 /* AccelerometerViewController.m */; };
+		E63D272413AD532700138818 /* AccelerometerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D272213AD532700138818 /* AccelerometerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,10 @@
 		E63D271813AD39EF00138818 /* shaker.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shaker.wav; sourceTree = "<group>"; };
 		E63D271A13AD3A0800138818 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		E63D271C13AD3ADA00138818 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E63D271E13AD423900138818 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E63D272013AD532600138818 /* AccelerometerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerViewController.h; sourceTree = "<group>"; };
+		E63D272113AD532600138818 /* AccelerometerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerViewController.m; sourceTree = "<group>"; };
+		E63D272213AD532700138818 /* AccelerometerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccelerometerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E63D271F13AD423900138818 /* MapKit.framework in Frameworks */,
 				E63D271D13AD3ADA00138818 /* CoreLocation.framework in Frameworks */,
 				E63D271B13AD3A0800138818 /* AudioToolbox.framework in Frameworks */,
 				E63D26E413AD123700138818 /* UIKit.framework in Frameworks */,
@@ -87,6 +95,7 @@
 		E63D26E213AD123700138818 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E63D271E13AD423900138818 /* MapKit.framework */,
 				E63D271C13AD3ADA00138818 /* CoreLocation.framework */,
 				E63D271A13AD3A0800138818 /* AudioToolbox.framework */,
 				E63D26E313AD123700138818 /* UIKit.framework */,
@@ -128,6 +137,8 @@
 				E63D270513AD12E400138818 /* CoreLocationViewController.m */,
 				E63D270913AD12FF00138818 /* UserDefaultsViewController.h */,
 				E63D270A13AD12FF00138818 /* UserDefaultsViewController.m */,
+				E63D272013AD532600138818 /* AccelerometerViewController.h */,
+				E63D272113AD532600138818 /* AccelerometerViewController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -135,13 +146,22 @@
 		E63D26FE13AD125300138818 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E63D272513AD533500138818 /* XIBs */,
 				E63D271813AD39EF00138818 /* shaker.wav */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E63D272513AD533500138818 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				E63D272213AD532700138818 /* AccelerometerViewController.xib */,
+				E63D26F513AD123700138818 /* MainWindow.xib */,
 				E63D270B13AD12FF00138818 /* UserDefaultsViewController.xib */,
 				E63D270613AD12E400138818 /* CoreLocationViewController.xib */,
 				E63D270113AD12BA00138818 /* SoundViewController.xib */,
-				E63D26F513AD123700138818 /* MainWindow.xib */,
 			);
-			name = Resources;
+			name = XIBs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +220,7 @@
 				E63D270813AD12E400138818 /* CoreLocationViewController.xib in Resources */,
 				E63D270D13AD130000138818 /* UserDefaultsViewController.xib in Resources */,
 				E63D271913AD39EF00138818 /* shaker.wav in Resources */,
+				E63D272413AD532700138818 /* AccelerometerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +236,7 @@
 				E63D270213AD12BA00138818 /* SoundViewController.m in Sources */,
 				E63D270713AD12E400138818 /* CoreLocationViewController.m in Sources */,
 				E63D270C13AD130000138818 /* UserDefaultsViewController.m in Sources */,
+				E63D272313AD532700138818 /* AccelerometerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +303,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Exercise9-Tab/Exercise9-Tab-Prefix.pch";
 				INFOPLIST_FILE = "Exercise9-Tab/Exercise9-Tab-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -294,7 +318,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Exercise9-Tab/Exercise9-Tab-Prefix.pch";
 				INFOPLIST_FILE = "Exercise9-Tab/Exercise9-Tab-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};

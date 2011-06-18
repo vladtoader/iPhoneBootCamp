@@ -9,8 +9,14 @@
 #import <UIKit/UIKit.h>
 
 
-@interface UserDefaultsViewController : UIViewController {
-    
+@interface UserDefaultsViewController : UIViewController <UITextFieldDelegate> {
+    UITextField *enteredText;
+    NSUserDefaults *def;
 }
+
+@property (nonatomic, retain) IBOutlet UITextField *enteredText;
+@property (nonatomic, retain) NSUserDefaults *def;
+
+- (IBAction)saveData:(id)sender;
 
 @end
