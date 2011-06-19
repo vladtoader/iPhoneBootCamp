@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E63D276B13AE4B8500138818 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D276A13AE4B8500138818 /* UIKit.framework */; };
+		E63D276D13AE4B8500138818 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D276C13AE4B8500138818 /* Foundation.framework */; };
+		E63D276F13AE4B8500138818 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D276E13AE4B8500138818 /* CoreGraphics.framework */; };
+		E63D277513AE4B8500138818 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E63D277313AE4B8500138818 /* InfoPlist.strings */; };
+		E63D277813AE4B8500138818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D277713AE4B8500138818 /* main.m */; };
+		E63D277B13AE4B8500138818 /* Exercise15_NavigtorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D277A13AE4B8500138818 /* Exercise15_NavigtorAppDelegate.m */; };
+		E63D277E13AE4B8500138818 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D277C13AE4B8500138818 /* MainWindow.xib */; };
+		E63D278913AE4BED00138818 /* FirstLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D278813AE4BED00138818 /* FirstLevelViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E63D276613AE4B8500138818 /* Exercise15-Navigtor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exercise15-Navigtor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63D276A13AE4B8500138818 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E63D276C13AE4B8500138818 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E63D276E13AE4B8500138818 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E63D277213AE4B8500138818 /* Exercise15-Navigtor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Exercise15-Navigtor-Info.plist"; sourceTree = "<group>"; };
+		E63D277413AE4B8500138818 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E63D277613AE4B8500138818 /* Exercise15-Navigtor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercise15-Navigtor-Prefix.pch"; sourceTree = "<group>"; };
+		E63D277713AE4B8500138818 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E63D277913AE4B8500138818 /* Exercise15_NavigtorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exercise15_NavigtorAppDelegate.h; sourceTree = "<group>"; };
+		E63D277A13AE4B8500138818 /* Exercise15_NavigtorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exercise15_NavigtorAppDelegate.m; sourceTree = "<group>"; };
+		E63D277D13AE4B8500138818 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E63D278713AE4BED00138818 /* FirstLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstLevelViewController.h; sourceTree = "<group>"; };
+		E63D278813AE4BED00138818 /* FirstLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstLevelViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E63D276313AE4B8500138818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63D276B13AE4B8500138818 /* UIKit.framework in Frameworks */,
+				E63D276D13AE4B8500138818 /* Foundation.framework in Frameworks */,
+				E63D276F13AE4B8500138818 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E63D275B13AE4B8500138818 = {
+			isa = PBXGroup;
+			children = (
+				E63D277013AE4B8500138818 /* Exercise15-Navigtor */,
+				E63D276913AE4B8500138818 /* Frameworks */,
+				E63D276713AE4B8500138818 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E63D276713AE4B8500138818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E63D276613AE4B8500138818 /* Exercise15-Navigtor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E63D276913AE4B8500138818 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E63D276A13AE4B8500138818 /* UIKit.framework */,
+				E63D276C13AE4B8500138818 /* Foundation.framework */,
+				E63D276E13AE4B8500138818 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E63D277013AE4B8500138818 /* Exercise15-Navigtor */ = {
+			isa = PBXGroup;
+			children = (
+				E63D278513AE4B9200138818 /* Classes */,
+				E63D278413AE4B8F00138818 /* Resources */,
+				E63D277113AE4B8500138818 /* Supporting Files */,
+			);
+			path = "Exercise15-Navigtor";
+			sourceTree = "<group>";
+		};
+		E63D277113AE4B8500138818 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E63D277213AE4B8500138818 /* Exercise15-Navigtor-Info.plist */,
+				E63D277313AE4B8500138818 /* InfoPlist.strings */,
+				E63D277613AE4B8500138818 /* Exercise15-Navigtor-Prefix.pch */,
+				E63D277713AE4B8500138818 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E63D278413AE4B8F00138818 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E63D278613AE4BA200138818 /* XIBs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E63D278513AE4B9200138818 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E63D277913AE4B8500138818 /* Exercise15_NavigtorAppDelegate.h */,
+				E63D277A13AE4B8500138818 /* Exercise15_NavigtorAppDelegate.m */,
+				E63D278713AE4BED00138818 /* FirstLevelViewController.h */,
+				E63D278813AE4BED00138818 /* FirstLevelViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E63D278613AE4BA200138818 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				E63D277C13AE4B8500138818 /* MainWindow.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E63D276513AE4B8500138818 /* Exercise15-Navigtor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E63D278113AE4B8500138818 /* Build configuration list for PBXNativeTarget "Exercise15-Navigtor" */;
+			buildPhases = (
+				E63D276213AE4B8500138818 /* Sources */,
+				E63D276313AE4B8500138818 /* Frameworks */,
+				E63D276413AE4B8500138818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Exercise15-Navigtor";
+			productName = "Exercise15-Navigtor";
+			productReference = E63D276613AE4B8500138818 /* Exercise15-Navigtor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E63D275D13AE4B8500138818 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Progressive Insurance";
+			};
+			buildConfigurationList = E63D276013AE4B8500138818 /* Build configuration list for PBXProject "Exercise15-Navigtor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E63D275B13AE4B8500138818;
+			productRefGroup = E63D276713AE4B8500138818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E63D276513AE4B8500138818 /* Exercise15-Navigtor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E63D276413AE4B8500138818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63D277513AE4B8500138818 /* InfoPlist.strings in Resources */,
+				E63D277E13AE4B8500138818 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E63D276213AE4B8500138818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63D277813AE4B8500138818 /* main.m in Sources */,
+				E63D277B13AE4B8500138818 /* Exercise15_NavigtorAppDelegate.m in Sources */,
+				E63D278913AE4BED00138818 /* FirstLevelViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E63D277313AE4B8500138818 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63D277413AE4B8500138818 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E63D277C13AE4B8500138818 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63D277D13AE4B8500138818 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E63D277F13AE4B8500138818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E63D278013AE4B8500138818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E63D278213AE4B8500138818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exercise15-Navigtor/Exercise15-Navigtor-Prefix.pch";
+				INFOPLIST_FILE = "Exercise15-Navigtor/Exercise15-Navigtor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E63D278313AE4B8500138818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exercise15-Navigtor/Exercise15-Navigtor-Prefix.pch";
+				INFOPLIST_FILE = "Exercise15-Navigtor/Exercise15-Navigtor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E63D276013AE4B8500138818 /* Build configuration list for PBXProject "Exercise15-Navigtor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63D277F13AE4B8500138818 /* Debug */,
+				E63D278013AE4B8500138818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E63D278113AE4B8500138818 /* Build configuration list for PBXNativeTarget "Exercise15-Navigtor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63D278213AE4B8500138818 /* Debug */,
+				E63D278313AE4B8500138818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E63D275D13AE4B8500138818 /* Project object */;
+}
