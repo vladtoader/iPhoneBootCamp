@@ -8,8 +8,10 @@
 
 #import "SwipeyViewController.h"
 
-
 @implementation SwipeyViewController
+
+@synthesize mLabel;
+@synthesize mGestureStartPoint;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -22,6 +24,7 @@
 
 - (void)dealloc
 {
+    [mLabel release];
     [super dealloc];
 }
 
@@ -43,6 +46,7 @@
 
 - (void)viewDidUnload
 {
+    mLabel = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -52,6 +56,40 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+#pragma mark - Custom methods
+
+-(void)erase
+{
+	self.mLabel.text = @"";
+}
+
+#pragma mark - Touches delegate methods
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+	UITouch *touch = [touches anyObject];
+	mGestureStartPoint = [touch locationInView:self.view];
+}
+
+-(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
+{
+	UITouch *touch = [touches anyObject];
+	CGPoint currentPosition = [touch locationInView:self.view];
+	
+	CGFloat dX = fabs(mGestureStartPoint.x - currentPosition.x);
+	CGFloat dY = fabs(mGestureStartPoint.y - currentPosition.y);
+	
+	if (dX >= MIN_GESTURE_LENGTH && dY <= MAX_VARIANCE) {
+		self.mLabel.text = @"Horizontal swipe detected";
+		[self performSelector:@selector(erase) withObject:nil afterDelay:2];
+	}
+	else if (dY >= MIN_GESTURE_LENGTH && dX <= MAX_VARIANCE)
+	{
+		self.mLabel.text = @"Vertical swipe detected";
+		[self performSelector:@selector(erase) withObject:nil afterDelay:2];
+	}
 }
 
 @end

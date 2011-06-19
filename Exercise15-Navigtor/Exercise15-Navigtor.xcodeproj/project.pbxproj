@@ -134,7 +134,6 @@
 				E63D279A13AE64C000138818 /* TouchyViewController.m */,
 				E63D279E13AE6A9700138818 /* SwipeyViewController.h */,
 				E63D279F13AE6A9700138818 /* SwipeyViewController.m */,
-				E63D27A013AE6A9800138818 /* SwipeyViewController.xib */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -142,6 +141,7 @@
 		E63D278613AE4BA200138818 /* XIBs */ = {
 			isa = PBXGroup;
 			children = (
+				E63D27A013AE6A9800138818 /* SwipeyViewController.xib */,
 				E63D279B13AE64C100138818 /* TouchyViewController.xib */,
 				E63D277C13AE4B8500138818 /* MainWindow.xib */,
 			);

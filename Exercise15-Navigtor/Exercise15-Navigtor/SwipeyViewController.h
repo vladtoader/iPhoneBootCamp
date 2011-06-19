@@ -8,9 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+#define MIN_GESTURE_LENGTH  25
+#define MAX_VARIANCE        5
 
 @interface SwipeyViewController : UIViewController {
-    
+    UILabel *mLabel;
+    CGPoint mGestureStartPoint;
 }
+
+@property (nonatomic, retain) IBOutlet UILabel *mLabel;
+@property CGPoint mGestureStartPoint;
+
+- (void)erase;
 
 @end

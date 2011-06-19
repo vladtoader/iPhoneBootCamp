@@ -10,6 +10,7 @@
 #import "SecondLevelViewController.h"
 #import "MoveItController.h"
 #import "TouchyViewController.h"
+#import "SwipeyViewController.h"
 
 @implementation FirstLevelViewController
 @synthesize mControllers;
@@ -20,15 +21,21 @@
     
     // Move it
     MoveItController *moveController = [[MoveItController alloc] initWithStyle:UITableViewStylePlain];
-    moveController.title = @"Move IT!";
+    moveController.title = @"Move it!";
     [self.mControllers addObject:moveController];
     [moveController release];
     
     // Touchy
     TouchyViewController *touchyController = [[TouchyViewController alloc] init];
-    touchyController.title = @"Touches!";
+    touchyController.title = @"Touche it!";
     [mControllers addObject:touchyController];
     [touchyController release];
+    
+    // Swipey
+    SwipeyViewController *swipeController = [[SwipeyViewController alloc] init];
+    swipeController.title = @"Swipe it!";
+    [mControllers addObject:swipeController];
+    [swipeController release];
     
     [super viewDidLoad];
 }
