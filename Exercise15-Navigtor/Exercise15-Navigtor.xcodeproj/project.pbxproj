@@ -15,6 +15,7 @@
 		E63D277B13AE4B8500138818 /* Exercise15_NavigtorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D277A13AE4B8500138818 /* Exercise15_NavigtorAppDelegate.m */; };
 		E63D277E13AE4B8500138818 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D277C13AE4B8500138818 /* MainWindow.xib */; };
 		E63D278913AE4BED00138818 /* FirstLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D278813AE4BED00138818 /* FirstLevelViewController.m */; };
+		E63D278C13AE4DDC00138818 /* SecondLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D278B13AE4DDC00138818 /* SecondLevelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		E63D277D13AE4B8500138818 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		E63D278713AE4BED00138818 /* FirstLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstLevelViewController.h; sourceTree = "<group>"; };
 		E63D278813AE4BED00138818 /* FirstLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstLevelViewController.m; sourceTree = "<group>"; };
+		E63D278A13AE4DDB00138818 /* SecondLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondLevelViewController.h; sourceTree = "<group>"; };
+		E63D278B13AE4DDC00138818 /* SecondLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondLevelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				E63D277A13AE4B8500138818 /* Exercise15_NavigtorAppDelegate.m */,
 				E63D278713AE4BED00138818 /* FirstLevelViewController.h */,
 				E63D278813AE4BED00138818 /* FirstLevelViewController.m */,
+				E63D278A13AE4DDB00138818 /* SecondLevelViewController.h */,
+				E63D278B13AE4DDC00138818 /* SecondLevelViewController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -187,6 +192,7 @@
 				E63D277813AE4B8500138818 /* main.m in Sources */,
 				E63D277B13AE4B8500138818 /* Exercise15_NavigtorAppDelegate.m in Sources */,
 				E63D278913AE4BED00138818 /* FirstLevelViewController.m in Sources */,
+				E63D278C13AE4DDC00138818 /* SecondLevelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

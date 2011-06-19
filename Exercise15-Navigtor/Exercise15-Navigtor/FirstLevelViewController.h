@@ -9,8 +9,10 @@
 #import <Foundation/Foundation.h>
 
 
-@interface FirstLevelViewController : NSObject {
-    
+@interface FirstLevelViewController : UITableViewController {
+    NSMutableArray *mControllers;
 }
+
+@property (nonatomic, retain) NSMutableArray *mControllers;
 
 @end

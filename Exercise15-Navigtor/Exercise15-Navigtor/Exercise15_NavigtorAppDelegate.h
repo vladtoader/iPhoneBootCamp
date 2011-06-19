@@ -9,9 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface Exercise15_NavigtorAppDelegate : NSObject <UIApplicationDelegate> {
-
+    UINavigationController *mNavigationController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet UINavigationController *mNavigationController;
 
 @end

@@ -10,12 +10,13 @@
 
 @implementation Exercise15_NavigtorAppDelegate
 
-
 @synthesize window=_window;
+@synthesize mNavigationController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [self.window addSubview:mNavigationController.view];
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -62,6 +63,7 @@
 - (void)dealloc
 {
     [_window release];
+    [mNavigationController release];
     [super dealloc];
 }
 
