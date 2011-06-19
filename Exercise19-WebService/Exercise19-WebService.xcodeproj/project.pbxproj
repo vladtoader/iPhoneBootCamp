@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E63D27B813AE874600138818 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D27B713AE874600138818 /* UIKit.framework */; };
+		E63D27BA13AE874600138818 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D27B913AE874600138818 /* Foundation.framework */; };
+		E63D27BC13AE874600138818 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D27BB13AE874600138818 /* CoreGraphics.framework */; };
+		E63D27C213AE874600138818 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E63D27C013AE874600138818 /* InfoPlist.strings */; };
+		E63D27C513AE874600138818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D27C413AE874600138818 /* main.m */; };
+		E63D27C813AE874600138818 /* Exercise19_WebServiceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D27C713AE874600138818 /* Exercise19_WebServiceAppDelegate.m */; };
+		E63D27CB13AE874600138818 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D27C913AE874600138818 /* MainWindow.xib */; };
+		E63D27CE13AE874600138818 /* Exercise19_WebServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D27CD13AE874600138818 /* Exercise19_WebServiceViewController.m */; };
+		E63D27D113AE874600138818 /* Exercise19_WebServiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D27CF13AE874600138818 /* Exercise19_WebServiceViewController.xib */; };
+		E63D27D913AE876800138818 /* ListParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D27D813AE876800138818 /* ListParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E63D27B313AE874600138818 /* Exercise19-WebService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exercise19-WebService.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63D27B713AE874600138818 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E63D27B913AE874600138818 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E63D27BB13AE874600138818 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E63D27BF13AE874600138818 /* Exercise19-WebService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Exercise19-WebService-Info.plist"; sourceTree = "<group>"; };
+		E63D27C113AE874600138818 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E63D27C313AE874600138818 /* Exercise19-WebService-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercise19-WebService-Prefix.pch"; sourceTree = "<group>"; };
+		E63D27C413AE874600138818 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E63D27C613AE874600138818 /* Exercise19_WebServiceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exercise19_WebServiceAppDelegate.h; sourceTree = "<group>"; };
+		E63D27C713AE874600138818 /* Exercise19_WebServiceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exercise19_WebServiceAppDelegate.m; sourceTree = "<group>"; };
+		E63D27CA13AE874600138818 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E63D27CC13AE874600138818 /* Exercise19_WebServiceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exercise19_WebServiceViewController.h; sourceTree = "<group>"; };
+		E63D27CD13AE874600138818 /* Exercise19_WebServiceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exercise19_WebServiceViewController.m; sourceTree = "<group>"; };
+		E63D27D013AE874600138818 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Exercise19_WebServiceViewController.xib; sourceTree = "<group>"; };
+		E63D27D713AE876800138818 /* ListParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListParser.h; sourceTree = "<group>"; };
+		E63D27D813AE876800138818 /* ListParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E63D27B013AE874600138818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63D27B813AE874600138818 /* UIKit.framework in Frameworks */,
+				E63D27BA13AE874600138818 /* Foundation.framework in Frameworks */,
+				E63D27BC13AE874600138818 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E63D27A813AE874600138818 = {
+			isa = PBXGroup;
+			children = (
+				E63D27BD13AE874600138818 /* Exercise19-WebService */,
+				E63D27B613AE874600138818 /* Frameworks */,
+				E63D27B413AE874600138818 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E63D27B413AE874600138818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E63D27B313AE874600138818 /* Exercise19-WebService.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E63D27B613AE874600138818 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E63D27B713AE874600138818 /* UIKit.framework */,
+				E63D27B913AE874600138818 /* Foundation.framework */,
+				E63D27BB13AE874600138818 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E63D27BD13AE874600138818 /* Exercise19-WebService */ = {
+			isa = PBXGroup;
+			children = (
+				E63D27DA13AE876C00138818 /* Classes */,
+				E63D27DB13AE877E00138818 /* Resources */,
+				E63D27BE13AE874600138818 /* Supporting Files */,
+			);
+			path = "Exercise19-WebService";
+			sourceTree = "<group>";
+		};
+		E63D27BE13AE874600138818 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E63D27BF13AE874600138818 /* Exercise19-WebService-Info.plist */,
+				E63D27C013AE874600138818 /* InfoPlist.strings */,
+				E63D27C313AE874600138818 /* Exercise19-WebService-Prefix.pch */,
+				E63D27C413AE874600138818 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E63D27DA13AE876C00138818 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E63D27D713AE876800138818 /* ListParser.h */,
+				E63D27D813AE876800138818 /* ListParser.m */,
+				E63D27C613AE874600138818 /* Exercise19_WebServiceAppDelegate.h */,
+				E63D27C713AE874600138818 /* Exercise19_WebServiceAppDelegate.m */,
+				E63D27CC13AE874600138818 /* Exercise19_WebServiceViewController.h */,
+				E63D27CD13AE874600138818 /* Exercise19_WebServiceViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E63D27DB13AE877E00138818 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E63D27DC13AE878700138818 /* XIBs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E63D27DC13AE878700138818 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				E63D27C913AE874600138818 /* MainWindow.xib */,
+				E63D27CF13AE874600138818 /* Exercise19_WebServiceViewController.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E63D27B213AE874600138818 /* Exercise19-WebService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E63D27D413AE874600138818 /* Build configuration list for PBXNativeTarget "Exercise19-WebService" */;
+			buildPhases = (
+				E63D27AF13AE874600138818 /* Sources */,
+				E63D27B013AE874600138818 /* Frameworks */,
+				E63D27B113AE874600138818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Exercise19-WebService";
+			productName = "Exercise19-WebService";
+			productReference = E63D27B313AE874600138818 /* Exercise19-WebService.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E63D27AA13AE874600138818 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Progressive Insurance";
+			};
+			buildConfigurationList = E63D27AD13AE874600138818 /* Build configuration list for PBXProject "Exercise19-WebService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E63D27A813AE874600138818;
+			productRefGroup = E63D27B413AE874600138818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E63D27B213AE874600138818 /* Exercise19-WebService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E63D27B113AE874600138818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63D27C213AE874600138818 /* InfoPlist.strings in Resources */,
+				E63D27CB13AE874600138818 /* MainWindow.xib in Resources */,
+				E63D27D113AE874600138818 /* Exercise19_WebServiceViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E63D27AF13AE874600138818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63D27C513AE874600138818 /* main.m in Sources */,
+				E63D27C813AE874600138818 /* Exercise19_WebServiceAppDelegate.m in Sources */,
+				E63D27CE13AE874600138818 /* Exercise19_WebServiceViewController.m in Sources */,
+				E63D27D913AE876800138818 /* ListParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E63D27C013AE874600138818 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63D27C113AE874600138818 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E63D27C913AE874600138818 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63D27CA13AE874600138818 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E63D27CF13AE874600138818 /* Exercise19_WebServiceViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63D27D013AE874600138818 /* en */,
+			);
+			name = Exercise19_WebServiceViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E63D27D213AE874600138818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E63D27D313AE874600138818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E63D27D513AE874600138818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exercise19-WebService/Exercise19-WebService-Prefix.pch";
+				INFOPLIST_FILE = "Exercise19-WebService/Exercise19-WebService-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E63D27D613AE874600138818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exercise19-WebService/Exercise19-WebService-Prefix.pch";
+				INFOPLIST_FILE = "Exercise19-WebService/Exercise19-WebService-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E63D27AD13AE874600138818 /* Build configuration list for PBXProject "Exercise19-WebService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63D27D213AE874600138818 /* Debug */,
+				E63D27D313AE874600138818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E63D27D413AE874600138818 /* Build configuration list for PBXNativeTarget "Exercise19-WebService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E63D27D513AE874600138818 /* Debug */,
+				E63D27D613AE874600138818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E63D27AA13AE874600138818 /* Project object */;
+}
