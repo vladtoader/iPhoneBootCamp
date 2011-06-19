@@ -8,9 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+#define MINIMUM_PINCH 100
 
 @interface PinchyViewController : UIViewController {
-    
+    UILabel *mLabel;
+    CGFloat mDistance;
 }
+
+@property (nonatomic, retain) IBOutlet UILabel *mLabel;
+@property CGFloat mDistance;
+
+- (void) erase;
+- (CGFloat)distanceBetweenTwoPoints:(CGPoint)fromPoint toPoint:(CGPoint)toPoint;
 
 @end

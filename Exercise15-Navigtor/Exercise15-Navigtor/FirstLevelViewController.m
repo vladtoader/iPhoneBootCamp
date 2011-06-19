@@ -11,6 +11,7 @@
 #import "MoveItController.h"
 #import "TouchyViewController.h"
 #import "SwipeyViewController.h"
+#import "PinchyViewController.h"
 
 @implementation FirstLevelViewController
 @synthesize mControllers;
@@ -27,7 +28,7 @@
     
     // Touchy
     TouchyViewController *touchyController = [[TouchyViewController alloc] init];
-    touchyController.title = @"Touche it!";
+    touchyController.title = @"Touch it!";
     [mControllers addObject:touchyController];
     [touchyController release];
     
@@ -36,6 +37,12 @@
     swipeController.title = @"Swipe it!";
     [mControllers addObject:swipeController];
     [swipeController release];
+    
+    // Pinchy
+    PinchyViewController *pinchController = [[PinchyViewController alloc] init];
+    pinchController.title = @"Pinch it!";
+    [mControllers addObject:pinchController];
+    [pinchController release];
     
     [super viewDidLoad];
 }
