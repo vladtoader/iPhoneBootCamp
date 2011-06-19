@@ -8,6 +8,7 @@
 
 #import "FirstLevelViewController.h"
 #import "SecondLevelViewController.h"
+#import "MoveItController.h"
 
 @implementation FirstLevelViewController
 @synthesize mControllers;
@@ -15,6 +16,12 @@
 - (void)viewDidLoad {
     self.title = @"First Level";
     self.mControllers = [[NSMutableArray alloc] init];
+    
+    // Move it
+    MoveItController *moveController = [[MoveItController alloc] initWithStyle:UITableViewStylePlain];
+    moveController.title = @"Move IT!";
+    [self.mControllers addObject:moveController];
+    [moveController release];
     
     [super viewDidLoad];
 }

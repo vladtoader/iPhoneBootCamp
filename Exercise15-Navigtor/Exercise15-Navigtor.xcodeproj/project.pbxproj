@@ -16,6 +16,7 @@
 		E63D277E13AE4B8500138818 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D277C13AE4B8500138818 /* MainWindow.xib */; };
 		E63D278913AE4BED00138818 /* FirstLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D278813AE4BED00138818 /* FirstLevelViewController.m */; };
 		E63D278C13AE4DDC00138818 /* SecondLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D278B13AE4DDC00138818 /* SecondLevelViewController.m */; };
+		E63D279713AE508300138818 /* MoveItController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D279613AE508300138818 /* MoveItController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		E63D278813AE4BED00138818 /* FirstLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstLevelViewController.m; sourceTree = "<group>"; };
 		E63D278A13AE4DDB00138818 /* SecondLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondLevelViewController.h; sourceTree = "<group>"; };
 		E63D278B13AE4DDC00138818 /* SecondLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondLevelViewController.m; sourceTree = "<group>"; };
+		E63D279513AE508300138818 /* MoveItController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveItController.h; sourceTree = "<group>"; };
+		E63D279613AE508300138818 /* MoveItController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveItController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 		E63D278513AE4B9200138818 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E63D279513AE508300138818 /* MoveItController.h */,
+				E63D279613AE508300138818 /* MoveItController.m */,
 				E63D277913AE4B8500138818 /* Exercise15_NavigtorAppDelegate.h */,
 				E63D277A13AE4B8500138818 /* Exercise15_NavigtorAppDelegate.m */,
 				E63D278713AE4BED00138818 /* FirstLevelViewController.h */,
@@ -193,6 +198,7 @@
 				E63D277B13AE4B8500138818 /* Exercise15_NavigtorAppDelegate.m in Sources */,
 				E63D278913AE4BED00138818 /* FirstLevelViewController.m in Sources */,
 				E63D278C13AE4DDC00138818 /* SecondLevelViewController.m in Sources */,
+				E63D279713AE508300138818 /* MoveItController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +265,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Exercise15-Navigtor/Exercise15-Navigtor-Prefix.pch";
 				INFOPLIST_FILE = "Exercise15-Navigtor/Exercise15-Navigtor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -272,6 +279,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Exercise15-Navigtor/Exercise15-Navigtor-Prefix.pch";
 				INFOPLIST_FILE = "Exercise15-Navigtor/Exercise15-Navigtor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -297,6 +305,7 @@
 				E63D278313AE4B8500138818 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
