@@ -9,6 +9,7 @@
 #import "FirstLevelViewController.h"
 #import "SecondLevelViewController.h"
 #import "MoveItController.h"
+#import "TouchyViewController.h"
 
 @implementation FirstLevelViewController
 @synthesize mControllers;
@@ -22,6 +23,12 @@
     moveController.title = @"Move IT!";
     [self.mControllers addObject:moveController];
     [moveController release];
+    
+    // Touchy
+    TouchyViewController *touchyController = [[TouchyViewController alloc] init];
+    touchyController.title = @"Touches!";
+    [mControllers addObject:touchyController];
+    [touchyController release];
     
     [super viewDidLoad];
 }

@@ -10,7 +10,11 @@
 
 
 @interface TouchyViewController : UIViewController {
-    
+    UILabel *mMessageLabel, *mTapLabel, *mTouchLabel;
 }
+
+@property (nonatomic, retain) IBOutlet UILabel *mMessageLabel, *mTapLabel, *mTouchLabel;
+
+- (void)updateLabelsFromTouch:(NSSet *)touches;
 
 @end
