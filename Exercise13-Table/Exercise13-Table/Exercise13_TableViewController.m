@@ -7,6 +7,7 @@
 //
 
 #import "Exercise13_TableViewController.h"
+#import "NiceCell.h"
 
 @implementation Exercise13_TableViewController
 
@@ -57,13 +58,16 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *tableId = @"tableId";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:tableId];
+    NiceCell *cell = (NiceCell *)[tableView dequeueReusableCellWithIdentifier:tableId];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:tableId] autorelease];
+        cell = [[[NiceCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:tableId] autorelease];
     }
     
     NSUInteger row = [indexPath row];
-    cell.textLabel.text = [mList objectAtIndex:row];
+//    cell.textLabel.text = [mList objectAtIndex:row];
+    cell.title.text = [mList objectAtIndex:row];
+    if ((row %2) == 0)
+        [cell changeColor:[UIColor yellowColor]];
     return cell;
 }
 

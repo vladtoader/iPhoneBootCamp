@@ -16,6 +16,7 @@
 		E63D274913AD591300138818 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D274713AD591300138818 /* MainWindow.xib */; };
 		E63D274C13AD591300138818 /* Exercise13_TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D274B13AD591300138818 /* Exercise13_TableViewController.m */; };
 		E63D274F13AD591300138818 /* Exercise13_TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D274D13AD591300138818 /* Exercise13_TableViewController.xib */; };
+		E63D275A13AD62A700138818 /* NiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D275913AD62A700138818 /* NiceCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		E63D274A13AD591300138818 /* Exercise13_TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exercise13_TableViewController.h; sourceTree = "<group>"; };
 		E63D274B13AD591300138818 /* Exercise13_TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exercise13_TableViewController.m; sourceTree = "<group>"; };
 		E63D274E13AD591300138818 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Exercise13_TableViewController.xib; sourceTree = "<group>"; };
+		E63D275813AD62A700138818 /* NiceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NiceCell.h; sourceTree = "<group>"; };
+		E63D275913AD62A700138818 /* NiceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NiceCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				E63D274513AD591300138818 /* Exercise13_TableAppDelegate.m */,
 				E63D274A13AD591300138818 /* Exercise13_TableViewController.h */,
 				E63D274B13AD591300138818 /* Exercise13_TableViewController.m */,
+				E63D275813AD62A700138818 /* NiceCell.h */,
+				E63D275913AD62A700138818 /* NiceCell.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -191,6 +196,7 @@
 				E63D274313AD591300138818 /* main.m in Sources */,
 				E63D274613AD591300138818 /* Exercise13_TableAppDelegate.m in Sources */,
 				E63D274C13AD591300138818 /* Exercise13_TableViewController.m in Sources */,
+				E63D275A13AD62A700138818 /* NiceCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

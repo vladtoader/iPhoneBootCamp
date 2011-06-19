@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class NiceCell;
+
 @interface Exercise13_TableViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
     NSArray *mList;
 }
