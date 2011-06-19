@@ -16,6 +16,11 @@
 		E63D27FF13AE9A9A00138818 /* Exercise20_IWasHereAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D27FE13AE9A9A00138818 /* Exercise20_IWasHereAppDelegate.m */; };
 		E63D280213AE9A9A00138818 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D280013AE9A9A00138818 /* MainWindow.xib */; };
 		E63D280513AE9A9B00138818 /* Exercise20_IWasHere.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E63D280313AE9A9B00138818 /* Exercise20_IWasHere.xcdatamodeld */; };
+		E63D281013AE9BCE00138818 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D280F13AE9BCE00138818 /* Location.m */; };
+		E63D281413AE9C8E00138818 /* AddLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D281213AE9C8E00138818 /* AddLocation.m */; };
+		E63D281513AE9C8E00138818 /* AddLocation.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D281313AE9C8E00138818 /* AddLocation.xib */; };
+		E63D281913AE9C9C00138818 /* ViewLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D281713AE9C9B00138818 /* ViewLocation.m */; };
+		E63D281A13AE9C9C00138818 /* ViewLocation.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D281813AE9C9B00138818 /* ViewLocation.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,14 @@
 		E63D27FE13AE9A9A00138818 /* Exercise20_IWasHereAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exercise20_IWasHereAppDelegate.m; sourceTree = "<group>"; };
 		E63D280113AE9A9A00138818 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		E63D280413AE9A9B00138818 /* Exercise20_IWasHere.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Exercise20_IWasHere.xcdatamodel; sourceTree = "<group>"; };
+		E63D280E13AE9BCE00138818 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		E63D280F13AE9BCE00138818 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		E63D281113AE9C8E00138818 /* AddLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddLocation.h; sourceTree = "<group>"; };
+		E63D281213AE9C8E00138818 /* AddLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddLocation.m; sourceTree = "<group>"; };
+		E63D281313AE9C8E00138818 /* AddLocation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddLocation.xib; sourceTree = "<group>"; };
+		E63D281613AE9C9B00138818 /* ViewLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewLocation.h; sourceTree = "<group>"; };
+		E63D281713AE9C9B00138818 /* ViewLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewLocation.m; sourceTree = "<group>"; };
+		E63D281813AE9C9B00138818 /* ViewLocation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewLocation.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +93,8 @@
 		E63D27F413AE9A9A00138818 /* Exercise20-IWasHere */ = {
 			isa = PBXGroup;
 			children = (
-				E63D27FD13AE9A9A00138818 /* Exercise20_IWasHereAppDelegate.h */,
-				E63D27FE13AE9A9A00138818 /* Exercise20_IWasHereAppDelegate.m */,
-				E63D280013AE9A9A00138818 /* MainWindow.xib */,
-				E63D280313AE9A9B00138818 /* Exercise20_IWasHere.xcdatamodeld */,
+				E63D280B13AE9ACF00138818 /* Classes */,
+				E63D280C13AE9ADB00138818 /* Resources */,
 				E63D27F513AE9A9A00138818 /* Supporting Files */,
 			);
 			path = "Exercise20-IWasHere";
@@ -98,6 +109,40 @@
 				E63D27FB13AE9A9A00138818 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E63D280B13AE9ACF00138818 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E63D27FD13AE9A9A00138818 /* Exercise20_IWasHereAppDelegate.h */,
+				E63D27FE13AE9A9A00138818 /* Exercise20_IWasHereAppDelegate.m */,
+				E63D280E13AE9BCE00138818 /* Location.h */,
+				E63D280F13AE9BCE00138818 /* Location.m */,
+				E63D281113AE9C8E00138818 /* AddLocation.h */,
+				E63D281213AE9C8E00138818 /* AddLocation.m */,
+				E63D281613AE9C9B00138818 /* ViewLocation.h */,
+				E63D281713AE9C9B00138818 /* ViewLocation.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E63D280C13AE9ADB00138818 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E63D280313AE9A9B00138818 /* Exercise20_IWasHere.xcdatamodeld */,
+				E63D280D13AE9AE200138818 /* XIBs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E63D280D13AE9AE200138818 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				E63D281313AE9C8E00138818 /* AddLocation.xib */,
+				E63D281813AE9C9B00138818 /* ViewLocation.xib */,
+				E63D280013AE9A9A00138818 /* MainWindow.xib */,
+			);
+			name = XIBs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +197,8 @@
 			files = (
 				E63D27F913AE9A9A00138818 /* InfoPlist.strings in Resources */,
 				E63D280213AE9A9A00138818 /* MainWindow.xib in Resources */,
+				E63D281513AE9C8E00138818 /* AddLocation.xib in Resources */,
+				E63D281A13AE9C9C00138818 /* ViewLocation.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +212,9 @@
 				E63D27FC13AE9A9A00138818 /* main.m in Sources */,
 				E63D27FF13AE9A9A00138818 /* Exercise20_IWasHereAppDelegate.m in Sources */,
 				E63D280513AE9A9B00138818 /* Exercise20_IWasHere.xcdatamodeld in Sources */,
+				E63D281013AE9BCE00138818 /* Location.m in Sources */,
+				E63D281413AE9C8E00138818 /* AddLocation.m in Sources */,
+				E63D281913AE9C9C00138818 /* ViewLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
