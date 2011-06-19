@@ -20,7 +20,7 @@
 
 - (id)init
 {
-	if (self = [super init]) {
+	if (self == [super init]) {
 		list = [[NSMutableArray alloc] init];
 		fieldNames = [[NSMutableArray alloc] init];
         attributeNames = [[NSMutableArray alloc] init];

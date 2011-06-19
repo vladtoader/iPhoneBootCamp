@@ -10,7 +10,13 @@
 #import "ListParser.h"
 
 @interface Exercise19_WebServiceViewController : UIViewController {
-    
+    UITextView *mTextView;
+    NSMutableData *mReceivedData;
 }
+
+@property (nonatomic, retain) IBOutlet UITextView *mTextView;
+@property (nonatomic, retain) NSMutableData *mReceivedData;
+
+- (IBAction) getButton;
 
 @end

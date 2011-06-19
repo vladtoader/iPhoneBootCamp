@@ -11,7 +11,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface ListParser : NSObject {
+@interface ListParser : NSObject <NSXMLParserDelegate> {
 	NSMutableString *activeText;
 	NSMutableArray *list;
 	NSMutableArray *fieldNames;
