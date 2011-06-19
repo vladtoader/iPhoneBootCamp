@@ -19,6 +19,8 @@
 		E63D279713AE508300138818 /* MoveItController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D279613AE508300138818 /* MoveItController.m */; };
 		E63D279C13AE64C100138818 /* TouchyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D279A13AE64C000138818 /* TouchyViewController.m */; };
 		E63D279D13AE64C100138818 /* TouchyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D279B13AE64C100138818 /* TouchyViewController.xib */; };
+		E63D27A113AE6A9800138818 /* SwipeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D279F13AE6A9700138818 /* SwipeyViewController.m */; };
+		E63D27A213AE6A9800138818 /* SwipeyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D27A013AE6A9800138818 /* SwipeyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,9 @@
 		E63D279913AE64C000138818 /* TouchyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchyViewController.h; sourceTree = "<group>"; };
 		E63D279A13AE64C000138818 /* TouchyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchyViewController.m; sourceTree = "<group>"; };
 		E63D279B13AE64C100138818 /* TouchyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TouchyViewController.xib; sourceTree = "<group>"; };
+		E63D279E13AE6A9700138818 /* SwipeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeyViewController.h; sourceTree = "<group>"; };
+		E63D279F13AE6A9700138818 /* SwipeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeyViewController.m; sourceTree = "<group>"; };
+		E63D27A013AE6A9800138818 /* SwipeyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwipeyViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +132,9 @@
 				E63D278B13AE4DDC00138818 /* SecondLevelViewController.m */,
 				E63D279913AE64C000138818 /* TouchyViewController.h */,
 				E63D279A13AE64C000138818 /* TouchyViewController.m */,
+				E63D279E13AE6A9700138818 /* SwipeyViewController.h */,
+				E63D279F13AE6A9700138818 /* SwipeyViewController.m */,
+				E63D27A013AE6A9800138818 /* SwipeyViewController.xib */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -193,6 +201,7 @@
 				E63D277513AE4B8500138818 /* InfoPlist.strings in Resources */,
 				E63D277E13AE4B8500138818 /* MainWindow.xib in Resources */,
 				E63D279D13AE64C100138818 /* TouchyViewController.xib in Resources */,
+				E63D27A213AE6A9800138818 /* SwipeyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +218,7 @@
 				E63D278C13AE4DDC00138818 /* SecondLevelViewController.m in Sources */,
 				E63D279713AE508300138818 /* MoveItController.m in Sources */,
 				E63D279C13AE64C100138818 /* TouchyViewController.m in Sources */,
+				E63D27A113AE6A9800138818 /* SwipeyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
