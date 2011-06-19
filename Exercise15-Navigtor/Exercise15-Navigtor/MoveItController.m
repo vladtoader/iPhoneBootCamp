@@ -36,7 +36,7 @@
     [super viewDidLoad];
 }
 
-// Table datasoure methods
+#pragma mark - Table dataSource methods
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [mList count];
@@ -59,7 +59,14 @@
 
 -(UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return UITableViewCellEditingStyleNone;
+    return UITableViewCellEditingStyleDelete;
+}
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+        [mList removeObjectAtIndex:indexPath.row];
+        [tableView reloadData];
+    }
 }
 
 - (BOOL)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)indexPath
