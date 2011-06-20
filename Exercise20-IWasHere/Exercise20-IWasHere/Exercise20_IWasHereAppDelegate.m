@@ -13,6 +13,8 @@
 
 @synthesize window=_window;
 
+@synthesize rootController;
+
 @synthesize managedObjectContext=__managedObjectContext;
 
 @synthesize managedObjectModel=__managedObjectModel;
@@ -22,6 +24,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [self.window addSubview:rootController.view];
     [self.window makeKeyAndVisible];
     return YES;
 }

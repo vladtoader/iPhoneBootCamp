@@ -21,6 +21,8 @@
 		E63D281513AE9C8E00138818 /* AddLocation.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D281313AE9C8E00138818 /* AddLocation.xib */; };
 		E63D281913AE9C9C00138818 /* ViewLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D281713AE9C9B00138818 /* ViewLocation.m */; };
 		E63D281A13AE9C9C00138818 /* ViewLocation.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63D281813AE9C9B00138818 /* ViewLocation.xib */; };
+		E63D281C13AEA1A300138818 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D281B13AEA1A300138818 /* CoreLocation.framework */; };
+		E63D281E13AEA1A900138818 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D281D13AEA1A900138818 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		E63D281613AE9C9B00138818 /* ViewLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewLocation.h; sourceTree = "<group>"; };
 		E63D281713AE9C9B00138818 /* ViewLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewLocation.m; sourceTree = "<group>"; };
 		E63D281813AE9C9B00138818 /* ViewLocation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewLocation.xib; sourceTree = "<group>"; };
+		E63D281B13AEA1A300138818 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E63D281D13AEA1A900138818 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E63D281E13AEA1A900138818 /* MapKit.framework in Frameworks */,
+				E63D281C13AEA1A300138818 /* CoreLocation.framework in Frameworks */,
 				E63D27ED13AE9A9A00138818 /* UIKit.framework in Frameworks */,
 				E63D27EF13AE9A9A00138818 /* Foundation.framework in Frameworks */,
 				E63D27F113AE9A9A00138818 /* CoreGraphics.framework in Frameworks */,
@@ -82,6 +88,8 @@
 		E63D27EB13AE9A9A00138818 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E63D281D13AEA1A900138818 /* MapKit.framework */,
+				E63D281B13AEA1A300138818 /* CoreLocation.framework */,
 				E63D27EC13AE9A9A00138818 /* UIKit.framework */,
 				E63D27EE13AE9A9A00138818 /* Foundation.framework */,
 				E63D27F013AE9A9A00138818 /* CoreGraphics.framework */,
@@ -281,6 +289,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Exercise20-IWasHere/Exercise20-IWasHere-Prefix.pch";
 				INFOPLIST_FILE = "Exercise20-IWasHere/Exercise20-IWasHere-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -294,6 +303,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Exercise20-IWasHere/Exercise20-IWasHere-Prefix.pch";
 				INFOPLIST_FILE = "Exercise20-IWasHere/Exercise20-IWasHere-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
